@@ -1,0 +1,32 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text{
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    
+    background: black;
+    
+}
+  
+.grid-one{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+   
+}
+

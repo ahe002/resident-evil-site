@@ -1,0 +1,37 @@
+.gallery {
+	width: 800px;
+	height: 600px;
+	border: solid black 3px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slick-list .slick-track .slick-slide {
+	height: 600px;
+	object-fit: cover; /* stretches images to fit gallery frame */
+}
+
+.slick-dots li {
+	color: darkgray;
+	position: relative;
+	top: -60px;
+	background: white;
+	border-radius: 100%;
+	margin-right: 10px; /* spacing between each button */
+}
+
+.slick-dots li:hover {
+	background: darkslateblue;
+}
+
+.slick-dots .slick-active {
+	background: darkolivegreen;
+}
+
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {
+	opacity: 0; /* hides default buttons */
+}	
+

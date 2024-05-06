@@ -1,0 +1,79 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text{
+    font-size: 25px;
+    color: white;
+    left: 10px;
+}
+
+.link{
+    color:white;
+    left: 10px;
+
+}
+
+.texting{
+    font-size: 25px;
+    color: white;
+    left: 10px;
+}
+
+body{
+    
+    background: black;
+    
+}
+
+
+.grid-one{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+   
+}
+
+.link:hover{
+    color: lightblue;
+    left: 10px;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.text:hover{
+    color: lightslategray;
+    left: 10px;
+    
+}
+
+.instruct   {
+    top: auto;
+    left: 10px;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 1.2px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: type 6s  infinite;
+ }
+
+ @keyframes type {
+ 0% { width: 0px;}
+ 100% { width: 890px; }
+ }

@@ -1,0 +1,234 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.text:hover{
+    color: lightslategray;
+    left: 10px;
+    
+}
+.text{
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    
+    background: black;
+    
+}
+  
+.grid-one{
+    display:grid; 
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+   
+}
+
+.name{
+    font-size: 100px;
+    text-align: center;
+    color:white;
+}
+
+.names{
+    font-size: 50px;
+    text-align: left;
+    color:white;
+}
+
+.mon-text{
+    font-size: 50px;
+    color: white;
+}
+
+.mom-text{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.grid-two{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto  ;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+}
+
+.thoughts{
+    font-size: 25px;
+    color:white;
+}
+
+.grid-three{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+}
+
+.imagesz:hover{
+    color:lightslategray;
+}
+  
+ div.name{
+    animation: glitch 1s linear infinite;
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  div.name:before,
+  div.name:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+  
+  div.name:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg);
+    }
+  }
+  
+  div.name:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+
+
+  div.names{
+    animation: glitch 1s linear infinite;
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  div.names:before,
+  div.names:after{
+    content: attr(title);
+    left: 15%;
+    top: 30%;
+  }
+  
+  div.names:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg);
+    }
+  }
+  
+  div.names:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+
+  .names:hover{
+    color:darkslateblue;
+  }
+
+  .imagez:hover{
+    color:lightblue;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .link{
+    text-decoration: none;
+    color:white;
+  }
+
+  .link:hover{
+    color:lightblue
+  }
+  .grid-four{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    grid-gap:20px;
+}

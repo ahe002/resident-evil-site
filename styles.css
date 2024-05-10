@@ -25,22 +25,25 @@ body{
 
 .container{
     position: relative;
-    text-align: center;
+    
     color: black;
     
 }
 
 .title{
     height: 1000px;
+    text-align: center;
     width: 950px;
     
 }
 
 .subtext{
     position: absolute;
+    text-align: center;
     top: 36%;
     left: 29%; 
     font-size: 55px;
+    font-weight: bold;
 }
 
 
@@ -48,7 +51,7 @@ body{
     color:black;
     position: fixed ;
     top: 15px;
-    right: 50%;
+    left: 92%;
 }
 
 a:link{
@@ -56,13 +59,34 @@ a:link{
 }
 a{
     color: white;
+    font-size: 20px;
 }
 a:hover{
-    color: burlywood;
+    color: lightslategray;
 }
 
 .about{
-    font-size: 16px;
-    font-weight: bolder;
+    max-width: 15%;
+    max-height: 15%;
 }
+.hide {
+    display: none;
+    position: relative;
+    
+
+  }
   
+  .about:hover + .hide {
+    display: block;
+    color: white;
+    font-size: 18px;
+    position: fixed ;
+    top: 15px;
+    left: 60%;
+    right: 5%;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}

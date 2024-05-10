@@ -19,9 +19,21 @@ a:link{
     left: 10px;
     
 }
-.text{
+.texts{
     font-size: 25px;
-    color: white;
+    color: lightblue;
+    left: 10px;
+}
+.texts:hover{
+  color: lightslategray;
+  left: 10px;
+  
+}
+
+.text{
+  font-size: 25px;
+  color: white;
+  left: 10px;
 }
 
 body{
@@ -30,6 +42,14 @@ body{
     
 }
   
+.contain{
+  margin: 0% 12% 0% 12%;
+}
+.box{
+  background-color: lightslategray;
+  opacity: 60%;
+}
+
 .grid-one{
     display:grid; 
     grid-template-rows: auto;
@@ -53,7 +73,12 @@ body{
 
 .mon-text{
     font-size: 50px;
-    color: white;
+    color: lightblue;
+}
+
+.mos-text{
+  font-size: 50px;
+  color:white;
 }
 
 .mom-text{
@@ -63,8 +88,8 @@ body{
 }
 .grid-two{
     display:grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto  ;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto auto auto auto ;
     padding: 10px 10px 10px 10px;
     grid-gap:20px;
 }
@@ -82,9 +107,26 @@ body{
     grid-gap:20px;
 }
 
-.imagesz:hover{
-    color:lightslategray;
+.imagez{
+
+  color: white;
+  animation:forwards example 5s infinite;
 }
+
+@keyframes example {
+  0%,100%{
+    color:white;
+  }
+  25%,75%{
+    color: lightblue;
+  }
+  50%{
+    color:lightslategray;
+  }
+}
+
+/* The element to apply the animation to */
+
   
  div.name{
     animation: glitch 1s linear infinite;
@@ -206,12 +248,10 @@ body{
   }
 
   .names:hover{
-    color:darkslateblue;
+    color:darkgray;
   }
 
-  .imagez:hover{
-    color:lightblue;
-  }
+
 
   .center{
     text-align: center;
@@ -223,12 +263,17 @@ body{
   }
 
   .link:hover{
-    color:lightblue
+    color:black;
   }
+
+
+
+
   .grid-four{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
     grid-gap:20px;
 }
+

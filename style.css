@@ -24,11 +24,11 @@
 }
 
 .slick-dots li:hover {
-	background: darkslateblue;
+	background: lightslategray;
 }
 
 .slick-dots .slick-active {
-	background: darkolivegreen;
+	background: lightskyblue;
 }
 
 #slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {

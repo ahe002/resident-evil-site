@@ -16,6 +16,11 @@ img {
     left: 10px;
 }
 
+.texts{
+    font-size: 25px;
+    color: lightblue;
+    left: 10px;
+}
 .link{
     color:white;
     left: 10px;
@@ -24,7 +29,7 @@ img {
 
 .texting{
     font-size: 25px;
-    color: white;
+    color: lightblue;
     left: 10px;
 }
 
@@ -58,6 +63,22 @@ a:link{
     color: lightslategray;
     left: 10px;
     
+}
+
+.texts:hover{
+    color: lightslategray;
+    left: 10px;
+    
+}
+
+.page{
+    color:lightslategray;
+    left:10px;
+    font-size: 25px;
+}
+.page:hover{
+    color:lightslategray;
+    left:10px;
 }
 
 .instruct   {

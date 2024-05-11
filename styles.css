@@ -18,7 +18,7 @@ b {
         
 }
 body{
-    background: url('/.../area.jpg') no-repeat fixed ;
+    background: white no-repeat fixed ;
     background-size: cover;
    
 }
@@ -58,7 +58,7 @@ a:link{
     text-decoration: none;
 }
 a{
-    color: brown;
+    color: black;
     font-size: 20px;
 }
 a:hover{

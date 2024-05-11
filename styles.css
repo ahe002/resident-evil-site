@@ -17,11 +17,7 @@ b {
     overflow-x: hidden;
         
 }
-body{
-    background: white no-repeat fixed ;
-    background-size: cover;
-   
-}
+
 
 .container{
     position: relative;
@@ -58,7 +54,7 @@ a:link{
     text-decoration: none;
 }
 a{
-    color: black;
+    color: white;
     font-size: 20px;
 }
 a:hover{
